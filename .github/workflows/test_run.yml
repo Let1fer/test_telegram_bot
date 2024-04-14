@@ -1,7 +1,9 @@
 name: test_run_bot
 
 on:
-  push:
+  #push:
+  schedule:
+    - cron: '*/10 * * * *'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}

@@ -2,7 +2,7 @@ name: test_run_bot
 
 on:
   schedule:
-  - cron: '* * * * *'
+  - cron: '30 16 * * *'
 
 env:
   TOKEN: ${{ secrets.TOKEN }}

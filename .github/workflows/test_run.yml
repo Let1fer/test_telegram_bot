@@ -3,6 +3,9 @@ name: test_run_bot
 on:
   schedule:
   - cron: '30 16 * * *'
+  workflow_dispatch:
+  
+
 
 env:
   TOKEN: ${{ secrets.TOKEN }}
